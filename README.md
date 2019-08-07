@@ -1,6 +1,6 @@
 # [projectoasis.ch](http://projectoasis.ch)
 
-This is the final exercise for the EPFL Extension School Course 50 Things You Need to Know About the Internet.
+This is the final exercise for the EPFL Extension School *Course 50 Things You Need to Know About the Internet*.
 
 ### Setup
 
@@ -29,5 +29,4 @@ After initial rounds of developing the site, a few points remain open to resolve
 
 ### Acknowledgments
 
-This page was developed with the help of stackoverflow.com, getbootstrap.com, w3schools.com, codepen.io, startbootstrap.com, youtube videos and various blog posts.
-
+This page was developed with the help of stackoverflow.com, getbootstrap.com, w3schools.com, codepen.io, startbootstrap.com, plus various youtube videos and blog posts.
