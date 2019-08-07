@@ -1,0 +1,23 @@
+h2 {
+  margin-bottom: 20px;
+}
+
+a.navbar-brand {
+    position: relative;
+    z-index: 1;
+}
+
+.masthead {
+  height: 90vh;
+  min-height: 500px;
+  background-image: url('images/plant-planet-paradise-dan-roizer-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
