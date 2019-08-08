@@ -1,4 +1,4 @@
-# [projectoasis.ch](http://projectoasis.ch)
+# [project-oasis](http://projectoasis.ch)
 
 This is the final exercise for the EPFL Extension School Course *50 Things You Need to Know About the Internet*.
 
