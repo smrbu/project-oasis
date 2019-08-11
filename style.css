@@ -1,0 +1,119 @@
+
+h1 {
+  font-family: 'Blinker', sans-serif;
+  font-size: 40px;
+  padding: 20px 0 0 0;
+  margin: 0 0 25px 0;
+}
+
+h2 {
+  font-family: 'Blinker', sans-serif;
+  font-size: 30px;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+body {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+a {
+  color: green;
+}
+
+
+p {
+  margin: 0 0 32px 0;
+}
+
+ul, ol {
+  margin: 0 0 32px 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+
+.main-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.main-menu li {
+  margin: 5px;
+  flex: 1 0 auto;
+}
+
+.main-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: green;
+  display: block;
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+footer {
+  margin: auto;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.card {
+  flex: 0 1 calc(25% - 1em);
+	margin-bottom: 2em;
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+
+.card-content {
+	padding: 1.4em;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;$
