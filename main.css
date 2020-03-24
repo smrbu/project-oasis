@@ -7,16 +7,18 @@ a.navbar-brand {
     z-index: 1;
 }
 
+a {
+  color: green;
+}
 
 .masthead {
   height: 90vh;
   min-height: 500px;
-  background-image: url('images/plant-planet-paradise-dan-roizer-unsplash.jpg');
+  background-image: url('images/rod-long-J-ygvQbilXU-unsplash-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 img {
     width: 200px;

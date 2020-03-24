@@ -18,8 +18,7 @@ The Website consists of four pages and two subpages - roughly as planned in a [s
 
 **About** - about.html - description of the project
 
-**Play** - play.html - contains a quiz for gaining points
-
+**Investors** - subscribe.html - contains a registration form for investors
 
 ### Questions
 
