@@ -1,5 +1,7 @@
 # [projectoasis.ch](http://projectoasis.ch)
 
+*Update: the site has changed quite a bit and most of the readme is no longer accurate*
+
 This is the final exercise for the EPFL Extension School Course *50 Things You Need to Know About the Internet*.
 
 ### Setup
