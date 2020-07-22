@@ -12,6 +12,22 @@
     <link rel="stylesheet" href="main.css">
     <!-- Newsletter CSS -->
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c427d9a09fd63397ed2431f94/1fed42a28558b737c7f99c48e.js");</script>
+    <!-- CO2 calculation script -->
+    <script>
+      const Http = new XMLHttpRequest();
+      const url="https://visitorshitcounter.com/counterDisplay?code=f5708ccbf613d5194f97a38d4e8b99cf&style=0017&pad=5&type=page&initCount=1";
+      Http.open("GET", url);
+      Http.send();
+
+      Http.onreadystatechange = (e) => {
+        console.log("got http request: " + Http.responseText);
+        let views = Http.responseText;
+        let co2perview = 0.00045;
+        let out = (views * co2perview) + " g";
+        document.getElementById('dupli_hit_counter').innerHTML = views;
+        document.getElementById('totalEmitted').innerHTML = out;
+      }
+    </script>
   </head>
   <body>
     <!-- Navigation -->
@@ -67,7 +83,7 @@
                 </tr>
                 <tr>
                   <th scope="row">Total emitted</th>
-                  <td> co2perview * dupli_hit_counter</td>
+                  <td><div id='totalEmitted'></div></td>
                 </tr>
                 <tr>
                   <th scope="row">Total removed</th>
