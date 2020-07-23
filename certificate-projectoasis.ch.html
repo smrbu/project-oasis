@@ -22,7 +22,7 @@
       Http.onreadystatechange = (e) => {
         console.log("got http request: " + Http.responseText);
         let views = Http.responseText;
-        let co2perview = 0.00045;
+        let co2perview = 0.45;
         let out = (views * co2perview) + " g";
         document.getElementById('dupli_hit_counter').innerHTML = views;
         document.getElementById('totalEmitted').innerHTML = out;
@@ -111,7 +111,8 @@
       <!-- Footer -->
       <footer id="sticky-footer" class="py-4 text-white-50">
         <div class="container text-center">
-          <span class="text-muted">Copyright &copy; <a href="about.html">Project Oasis</a></span>
+          <span class="text-muted"><a href="certificate-projectoasis.ch.html">Zero-carbon website <b>ø</b></a> Copyright &copy; <a href="about.html">Project Oasis</a></span>
+
         </div>
       </footer>
 
