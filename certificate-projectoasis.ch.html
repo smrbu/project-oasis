@@ -13,21 +13,7 @@
     <!-- Newsletter CSS -->
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c427d9a09fd63397ed2431f94/1fed42a28558b737c7f99c48e.js");</script>
     <!-- CO2 calculation script -->
-    <script>
-      const Http = new XMLHttpRequest();
-      const url="https://visitorshitcounter.com/counterDisplay?code=f5708ccbf613d5194f97a38d4e8b99cf&style=0017&pad=5&type=page&initCount=1";
-      Http.open("GET", url);
-      Http.send();
-
-      Http.onreadystatechange = (e) => {
-        console.log("got http request: " + Http.responseText);
-        let views = Http.responseText;
-        let co2perview = 0.45;
-        let out = (views * co2perview) + " g";
-        document.getElementById('dupli_hit_counter').innerHTML = views;
-        document.getElementById('totalEmitted').innerHTML = out;
-      }
-    </script>
+    <script src='co2.js'></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -77,17 +63,17 @@
                 </tr>
                 <tr>
                   <th scope="row">CO2 per page view</th>
-                  <td id="co2perview"><a href="https://www.websitecarbon.com/">0.45 g</a></td>
+                  <td id="co2perview"><a href="https://www.websitecarbon.com/" id="wcb_g">calculating...</a></td>
                 </tr>
                 <tr>
                   <th scope="row">Pageviews</th>
                   <td>
-                    <span class="text" id="dupli_hit_counter" style="color:rgb(35, 33, 33);width:100%;"></span></span><input type="hidden" id="site_val"   value="https://visitorshitcounter.com/counterDisplay?code=f5708ccbf613d5194f97a38d4e8b99cf&style=0017&pad=5&type=page&initCount=1"></div></div><script src="https://visitorshitcounter.com/js/badgess.js?v=1595408021"></script><!-- Badge Code End Here -->
+                    <span class="text" id="dupli_hit_counter" style="color:rgb(35, 33, 33);width:100%;">calculating...</span></span><input type="hidden" id="site_val"   value="https://visitorshitcounter.com/counterDisplay?code=f5708ccbf613d5194f97a38d4e8b99cf&style=0017&pad=5&type=page&initCount=1"></div></div><script src="https://visitorshitcounter.com/js/badgess.js?v=1595408021"></script><!-- Badge Code End Here -->
                   </td>
                 </tr>
                 <tr>
                   <th scope="row">Total emitted</th>
-                  <td><div id='totalEmitted'></div></td>
+                  <td><div id='total_emitted'>calculating...</div></td>
                 </tr>
                 <tr>
                   <th scope="row">Accounting ID</th>
@@ -127,6 +113,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
     <!-- Optional JavaScript, paste at end, befor closing body tag -->
-
+    <script>wcb_update();</script>
   </body>
 </html>
