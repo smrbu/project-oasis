@@ -10,11 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164920931-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-164920931-1');
+    </script>
   </head>
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">projectøasis</a>
+          <a class="navbar-brand" href="index.html">Øasis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,14 +31,17 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="investors.html">Offers<span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services<span class="sr-only">(current)</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://oasis.substack.com/">Climate Pioneers</a>
+                <a class="dropdown-item" href="http://www.zeroheroapp.com/">Zero Hero</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="suppliers.html">Suppliers<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="news.html">News<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
@@ -38,7 +49,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="navbar-btn my-2 my-lg-0">
-              <a href="https://calendly.com/smrbu" class="btn btn-outline-success">Get a call</a>
+              <a href="investors.html" class="btn btn-outline-success">Start journey</a>
             </li>
           </ul>
         </div>
@@ -98,7 +109,9 @@
               -->
                  <a class="btn btn-outline-success btn-lg btn-block" href="investors.html" role="button">Learn more about carbon removal opportunities</a>
                  <a class="btn btn-outline-success btn-lg btn-block" href="actors-form.html" role="button">List your carbon removal project</a>
-                 <a class="btn btn-outline-success btn-lg btn-block" href="https://calendly.com/smrbu" role="button">Get a call</a>
+                 <a class="btn btn-outline-success btn-lg btn-block" href="http://oasis.substack.com/archive" role="button">Explore stories</a>
+                 <a class="btn btn-outline-success btn-lg btn-block" href="http://www.zeroheroapp.com/" role="button">Remove website carbon</a>
+                 <a class="btn btn-outline-success btn-lg btn-block" href="https://calendly.com/smrbu" role="button">Schedule a call</a>
               <br>
               <br>
 
@@ -119,7 +132,7 @@
                 <strong>Project Oasis</strong>
                 <br>Samuel Bühlmann</br>
                 <abbr title="Email">
-                  <a href="mailto:samuel.buehlmann@gmail.com">E-Mail</a>
+                  <a href="mailto:sam@projectoasis.ch">E-Mail</a>
                 </abbr>
               </address>
             </div>

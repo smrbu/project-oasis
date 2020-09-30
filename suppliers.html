@@ -10,11 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164920931-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-164920931-1');
+    </script>
   </head>
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">projectøasis</a>
+          <a class="navbar-brand" href="index.html">Øasis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,14 +31,17 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="investors.html">Offers<span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services<span class="sr-only">(current)</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://oasis.substack.com/">Climate Pioneers</a>
+                <a class="dropdown-item" href="http://www.zeroheroapp.com/">Zero Hero</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="suppliers.html">Suppliers<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="news.html">News<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
@@ -38,7 +49,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="navbar-btn my-2 my-lg-0">
-              <a href="https://calendly.com/smrbu" class="btn btn-outline-success">Get a call</a>
+              <a href="investors.html" class="btn btn-outline-success">Start journey</a>
             </li>
           </ul>
         </div>
@@ -56,40 +67,76 @@
         <section class="py-3">
           <div class="container">
               <div class="row">
+
                   <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card h-100">
                       <img class="card-img-top" src="images/carbocert.jpg" alt="CarboCert">
                       <div class="card-body">
                         <h4 class="card-title">CarboCert</h4>
                         <p class="card-text">CarboCert supports farmers to turn their land into carbon-capturing soil.</p>
-                        <a class="btn btn-lg btn-block btn-success" href="http://carbocert.com/" target="_blank">View Project</a>
+                        <a class="btn btn-lg btn-block btn-success" href="http://carbocert.com/" target="_blank">View Website</a>
                       </div>
                     </div>
                   </div>
+
            <div class="col-lg-4 col-sm-6 mb-4">
              <div class="card h-100">
                 <img class="card-img-top" src="images/Climeworks-commercial-carbon-dioxide-removal-technology-technology.jpg" alt="Climeworks commercial carbon dioxide removal technology technology">
                 <div class="card-body">
                 <h4 class="card-title">Climeworks</h4>
                 <p class="card-text">Climeworks invented carbon dioxide removal technology to capture CO2 from the air.</p>
-                <a class="btn btn-lg btn-block btn-success" href="https://climeworks.com/" target="_blank">View Project</a>
-
-
+                <a class="btn btn-lg btn-block btn-success" href="https://climeworks.com/" target="_blank">View Website</a>
                </div>
              </div>
            </div>
+
            <div class="col-lg-4 col-sm-6 mb-4">
              <div class="card h-100">
                <img class="card-img-top" src="images/puroearth.jpg" alt="">
                <div class="card-body">
                  <h4 class="card-title">Puro Earth</h4>
                  <p class="card-text">A marketplace for removing CO2 from the atmosphere.</p>
-                 <a class="btn btn-lg btn-block btn-success" href="https://puro.earth/" target="_blank">View Project</a>
+                 <a class="btn btn-lg btn-block btn-success" href="https://puro.earth/" target="_blank">View Website</a>
                </div>
              </div>
            </div>
+
+           <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/biochar_carboculture.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Carbo Culture</h4>
+                <p class="card-text">Sequestering CO2 for over a thousand years in biochar.</p>
+                <a class="btn btn-lg btn-block btn-success" href="https://www.carboculture.com/" target="_blank">View Website</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/neustark.jpeg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Neustark</h4>
+                <p class="card-text">Turns CO2 permanently into calcite stone for concrete production.</p>
+                <a class="btn btn-lg btn-block btn-success" href="https://www.neustark.com/" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card h-100">
+              <img class="card-img-top" src="images/project_vesta_sand.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Project Vesta</h4>
+                <p class="card-text">Is utilizing tropical beaches to capture CO2 in volcanic rocks.</p>
+                <a class="btn btn-lg btn-block btn-success" href="https://projectvesta.org/" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+
+
            </div>
-            <a class="btn btn-outline-success btn-lg btn-block" href="actors-form.html" role="button">Submit your carbon removal project</a>
+            <a class="btn btn-outline-success btn-lg btn-block" href="actors-form.html" role="button">Submit carbon removal project</a>
           </div>
         </section>
       </main>
