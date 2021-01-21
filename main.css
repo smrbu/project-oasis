@@ -116,8 +116,7 @@ html {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-color: #ffffff;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
